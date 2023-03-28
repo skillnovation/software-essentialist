@@ -36,4 +36,8 @@ describe("fizzbuzz", () => {
     it("should return can't be greater than 100 when given 101", () =>{
         expect(fizzBuzz(101)).toBe("can't be greater than 100")
     })
+
+    it("should return can't be less than 1 when given -1", () =>{
+        expect(fizzBuzz(-1)).toBe("can't be less than 1")
+    })
 });

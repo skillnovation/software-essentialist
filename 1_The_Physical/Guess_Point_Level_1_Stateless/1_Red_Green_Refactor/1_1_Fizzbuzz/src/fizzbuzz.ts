@@ -2,6 +2,9 @@ export function fizzBuzz(num : number){
     if(num > 100){
         return "can't be greater than 100"
     }
+    if(num < 1){
+        return "can't be less than 1"
+    }
     if(num === 1){
         return "fizzbuzz"
     }
