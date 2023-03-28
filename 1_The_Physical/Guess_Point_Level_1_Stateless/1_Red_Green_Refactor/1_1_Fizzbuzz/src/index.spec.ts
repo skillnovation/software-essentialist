@@ -6,6 +6,10 @@ describe("fizzbuzz", () => {
     })
 
     it("should return fizz for 3", () => {
-        expect(fizzBuzz(3)).toBe("3");
+        expect(fizzBuzz(3)).toBe("fizz");
+    })
+
+    it("should return fizz for 5", () => {
+        expect(fizzBuzz(5)).toBe("buzz");
     })
 });

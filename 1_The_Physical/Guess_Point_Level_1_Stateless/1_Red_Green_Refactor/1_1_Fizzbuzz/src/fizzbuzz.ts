@@ -1,3 +1,6 @@
 export function fizzBuzz(num : Number){
-    return "3"
+    if(num === 3){
+        return "fizz"
+    }
+    return "buzz"
 }
